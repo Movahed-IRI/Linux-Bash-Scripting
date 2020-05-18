@@ -53,8 +53,7 @@ grep word filename --color=auto
 - In order to output only the matching portion of a text in a file ,use the `-o` option .
 ``` bash 
 echo this is a line. | egrep -o "[a-z]+\."
-#output
-line.
+line. #output
 ```
 - In order to print all of the lines ,except the line containing match_pattern ,use:
 ``` bash 
@@ -77,10 +76,8 @@ echo -e"1 2 3 4\nhello\n5 6" | egrep -o "[0-9]" | wc -l
 - Print the char or byte offset at which a pattern matches ,as follows :
 ``` bash 
 echo gnu is not unix | grep -b -o "not" 
-
 # output
-7:not
-# a counter from 0
+7:not  #(a counter form zero)
 ```
 
 - To search over multiple files ,and list which files contain the pattern ,we use the following :

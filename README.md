@@ -1,3 +1,17 @@
-# Headline
+This is just a book derived from Linux Shell scripting Cookbook to ease of access 
 
-> An awesome project.
+To Start using first install docsify globally
+```
+npm install -g docsify
+```
+Run docify host as follow 
+```
+docsify serve
+```
+
+###########################################################
+alternatively you could run a local http server and see the content. change directory to project root directory in matter of define docroot
+```
+python3 -m http.server <port_number>
+```
+
